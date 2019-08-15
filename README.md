@@ -7,4 +7,6 @@ The dungeon, player and vampires are shown in text form. The first line in the p
 
 Once the game map is printed, the player can make a move. The player is controlled by using the WSAD keys. With one move, the player can walk any number of steps.
 
+If all the vampires are killed before the lamp battery runs out, the player wins and the game ends.
+
 
