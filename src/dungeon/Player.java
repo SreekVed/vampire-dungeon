@@ -33,10 +33,14 @@ public class Player {
         
         switch(command) {
         
-            case 'w' : this.y-=2;
-            case 's' : this.y++; this.x++;
-            case 'a' : this.x-=2;
+            case 'w' : this.y--;
+                break;
+            case 's' : this.y++;
+                break;
+            case 'a' : this.x--;
+                break;
             case 'd' : this.x++;
+                break;
         
         }
     
